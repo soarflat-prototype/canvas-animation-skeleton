@@ -6,23 +6,41 @@ Canvas Animation Skeleton is a skeleton for canvas animation.
 yarn install
 ```
 
-## Usage
+## How to use scripts
 
 ### server
 ```
 yarn run server
 ```
 
-### webpack
-
-#### build
+### build
 ```
-yarn run webpack:build
+yarn run build
 ```
 
-#### build and watch
+#### build:css
 ```
-yarn run webpack:watch
+yarn run build:css
+```
+
+#### build:js
+```
+yarn run build:js
+```
+
+### watch
+```
+yarn run watch
+```
+
+#### watch:css
+```
+yarn run watch:css
+```
+
+#### watch:js
+```
+yarn run watch:js
 ```
 
 

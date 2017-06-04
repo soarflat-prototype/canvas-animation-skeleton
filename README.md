@@ -14,9 +14,15 @@ yarn run server
 ```
 
 ### webpack
+
+#### build
 ```
-yarn run webpack
+yarn run webpack:build
 ```
 
+#### build and watch
+```
+yarn run webpack:watch
+```
 
 

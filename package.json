@@ -11,7 +11,6 @@
     "browser-sync": "^2.18.12",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.0.2",
-    "onchange": "^3.2.1",
     "webpack": "^2.6.1"
   },
   "scripts": {
@@ -19,8 +18,8 @@
     "build:css": "node-sass --output-style compressed -o docs/ src/scss",
     "build:js": "webpack",
     "build": "npm-run-all build:*",
-    "watch:css": "onchange 'src/scss/*.scss' -- yarn run build:css",
+    "watch:css": "yarn run build:css -- --watch",
     "watch:js": "webpack --watch",
-    "watch": "npm-run-all watch:*"
+    "watch": "npm-run-all --parallel watch:*"
   }
 }
